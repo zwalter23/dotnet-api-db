@@ -1,0 +1,35 @@
+﻿@model IEnumerable<dotnet_core_with_api_and_database.Models.Item>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a href="ItemsMV/Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                <a href="ItemsMV/Edit/@item.Id">Edit</a> |
+                <a asp-controller="ItemsMV" asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a href="ItemsMV/Delete/@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
