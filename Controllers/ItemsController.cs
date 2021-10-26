@@ -9,7 +9,7 @@ using dotnet_core_with_api_and_database.Models;
 
 namespace dotnet_core_with_api_and_database.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/Items")]
     [ApiController]
     public class ItemsController : ControllerBase
     {
@@ -80,7 +80,7 @@ namespace dotnet_core_with_api_and_database.Controllers
             _context.Items.Add(item);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetItem", new { id = item.Id }, item);
+            return CreatedAtAction(nameof(GetItem), new { id = item.Id }, item);
         }
 
         // DELETE: api/Items/5
