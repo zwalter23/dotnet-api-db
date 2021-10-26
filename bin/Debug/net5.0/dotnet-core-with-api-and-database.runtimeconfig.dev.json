@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\zimme\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\zimme\\.nuget\\packages"
+    ]
+  }
+}
