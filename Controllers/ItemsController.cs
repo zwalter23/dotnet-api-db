@@ -9,7 +9,7 @@ using dotnet_core_with_api_and_database.Models;
 
 namespace dotnet_core_with_api_and_database.Controllers
 {
-    [Route("api/Items")]
+    [Route("api/Items ")]
     [ApiController]
     public class ItemsController : ControllerBase
     {

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "QWe6ayohRQE45wG3tApH6awnqnXSPX+ocVFn1Bq4B3Jh6XNTRsjlMt/gHiL75EWbUg3h9xtBZ37N2EHCorDgIA==",
+  "dgSpecHash": "q1y4btd7SCsVjxJMTzsKLORsnTpnjnA8YTxiZ+//vzzRmYDBdto3bjzslA8w0+mNfRlMqLbIk4rUPKuwL77luA==",
   "success": true,
   "projectFilePath": "W:\\School\\Projects\\C#\\dotnet-module\\brewrilla-with-database\\dotnet-core-with-api-and-database.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zimme\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\zimme\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\5.0.11\\microsoft.aspnetcore.diagnostics.entityframeworkcore.5.0.11.nupkg.sha512",
     "C:\\Users\\zimme\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\zimme\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\zimme\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.0\\microsoft.aspnetcore.razor.language.5.0.0.nupkg.sha512",

@@ -168,3 +168,4 @@ W:\School\Projects\C#\dotnet-module\brewrilla-with-database\obj\Debug\net5.0\dot
 W:\School\Projects\C#\dotnet-module\brewrilla-with-database\obj\Debug\net5.0\ref\dotnet-core-with-api-and-database.dll
 W:\School\Projects\C#\dotnet-module\brewrilla-with-database\obj\Debug\net5.0\dotnet-core-with-api-and-database.pdb
 W:\School\Projects\C#\dotnet-module\brewrilla-with-database\obj\Debug\net5.0\dotnet-core-with-api-and-database.genruntimeconfig.cache
+W:\School\Projects\C#\dotnet-module\brewrilla-with-database\bin\Debug\net5.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll

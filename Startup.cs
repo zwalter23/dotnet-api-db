@@ -13,6 +13,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using dotnet_core_with_api_and_database.Models;
+using Microsoft.AspNetCore.Diagnostics;
 
 namespace dotnet_core_with_api_and_database
 {
@@ -29,8 +30,9 @@ namespace dotnet_core_with_api_and_database
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddControllers();
-            services.AddDbContext<ItemContext>(opt => opt.UseInMemoryDatabase("ItemList"));
+            services.AddDbContext<ItemContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDatabaseDeveloperPageExceptionFilter();
+            services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

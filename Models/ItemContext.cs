@@ -1,12 +1,22 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using dotnet_core_with_api_and_database.Models;
 
 namespace dotnet_core_with_api_and_database.Models
 {
     public class ItemContext:DbContext
     {
+        public ItemContext()
+        {
+        }
+
         public ItemContext(DbContextOptions<ItemContext> options):base(options)
         {
         }
         public DbSet<Item> Items { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Item>().ToTable("Item");
+        }
     }
 }
